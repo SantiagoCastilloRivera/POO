@@ -6,7 +6,7 @@ package org.parcial;
 
 /**
  *
- * @author kevin castillo
+ * @author iikan
  */
 public class Motocicleta extends Vehiculo{
       private int cilindrada;

@@ -18,12 +18,8 @@ public class Vehiculo {
     }
 
     public void uptDineroGenerado() {
-        if(horaSalida > horaEntrada)
-            dineroGenerado = (horaSalida - horaEntrada) * 15000;
-        else
-            dineroGenerado = ((24 - horaEntrada) + horaSalida) * 15000;
+        dineroGenerado = (horaEntrada-horaSalida)*15000;
     }
-
 // Constructores, getters y setters
 
     // Otros métodos específicos si es necesario

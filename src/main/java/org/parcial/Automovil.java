@@ -6,11 +6,29 @@ package org.parcial;
 
 /**
  *
- * @author kevin castillo
+ * @author iikan
  */
 public class Automovil extends Vehiculo{
       private int numeroPuertas;
+      private int horaEntrada, horaSalida;
+
     // Constructores, getters y setters
+
+    public int getHoraEntrada() {
+        return horaEntrada;
+    }
+
+    public void setHoraEntrada(int horaEntrada) {
+        this.horaEntrada = horaEntrada;
+    }
+
+    public int getHoraSalida() {
+        return horaSalida;
+    }
+
+    public void setHoraSalida(int horaSalida) {
+        this.horaSalida = horaSalida;
+    }
 
     // Otros métodos específicos para automóviles
     
